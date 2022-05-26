@@ -1,0 +1,519 @@
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.logo {
+
+    padding: 5px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    padding-left: 120px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#buttDiv {
+    padding: 20px;
+}
+
+#butt {
+    text-align: center;
+    font-size: 7px;
+    width: 50px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+#container {
+    display: block;
+    padding-top: 10px;
+}
+
+#contPart {
+    box-sizing: border-box;
+    background-image: url("./Reactangle.png");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 440px;
+    float: left;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 140px;
+    left: 70px;
+}
+
+input {
+    width: 220px;
+    height: 30px;
+}
+
+#content a {
+    text-decoration: none;
+    color: black;
+}
+
+#contPartSec {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    gap: 60px;
+    width: 50%;
+    height: 95px;
+}
+
+#moreSer {
+    display: table;
+}
+
+#moreChildDiv {
+    float: left;
+    width: 43%;
+    padding: 5px;
+}
+
+#service {
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    width: 50%;
+    height: 170px;
+    padding: 10px;
+}
+
+#moreSer {
+    display: table;
+
+}
+
+#items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.itemPart h6 {
+    text-align: center;
+}
+
+#menService {
+    position: absolute;
+    top: 850px;
+    left: 200px;
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+}
+
+#premiumSer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.premiumPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#homeService {
+    position: absolute;
+    top: 1100px;
+    left: 200px;
+    width: 50%;
+    height: 120px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#contentSer {
+    display: flex;
+    flex-direction: column;
+    gap: -40px;
+}
+
+#contentSer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#delveryBoy img {
+    width: 100px;
+    height: 130px;
+    border-radius: 30px;
+}
+
+#block {
+    position: absolute;
+    top: 1270px;
+    left: 200px;
+    width: 50%;
+    height: 150px;
+    padding: 10px;
+}
+
+.blockRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blockRow img {
+    width: 80px;
+    height: 50px;
+}
+
+.premiumPart h6 {
+    font-size: 6px;
+    text-align: center;
+}
+
+.premiumPart h5 {
+    font-size: 5px;
+    text-align: center;
+    color: gray;
+    padding: -50px;
+}
+
+.premiumPart img {
+    width: 80px;
+    height: 80px;
+}
+
+#block1 {
+    position: absolute;
+    top: 1500px;
+    left: 200px;
+    width: 50%;
+    height: 150px;
+    padding: 10px;
+}
+
+#assured {
+    position: absolute;
+    top: 1740px;
+    left: 20px;
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+#assured h3 {
+    text-align: center;
+}
+
+#circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.circleDesc {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.circleDesc p {
+    font-size: 10px;
+    color: gray;
+}
+
+.circleDesc img {
+    width: 50px;
+    height: 50px;
+}
+
+#block2 {
+    position: absolute;
+    top: 1900px;
+    left: 200px;
+    width: 50%;
+    height: 150px;
+    padding: 10px;
+}
+
+#moreItems {
+    position: absolute;
+    top: 2140px;
+    left: 150px;
+    width: 70%;
+    height: 200px;
+    padding: 5px;
+
+}
+
+#moreItemsDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#banner {
+    position: absolute;
+    top: 2400px;
+    left: 20px;
+    width: 95%;
+    height: 190px;
+    padding: 5px;
+    background-image: url(./Rectangle\ 1931.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+#banner img {
+    width: 200px;
+    height: 190px;
+    padding-left: 50px;
+}
+
+#bannerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bannerContent button {
+    width: 100px;
+    height: 35px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 40px;
+    background-color: yellow;
+}
+
+#Electrician {
+    position: absolute;
+    top: 2640px;
+    left: 20px;
+    width: 95%;
+    height: 190px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.electricianSer h4 {
+    color: green;
+}
+
+.electItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#plumber {
+    position: absolute;
+    top: 2920px;
+    left: 20px;
+    width: 95%;
+    height: 190px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+#carpenter {
+    position: absolute;
+    top: 3220px;
+    left: 20px;
+    width: 95%;
+    height: 190px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+#girl {
+    position: absolute;
+    top: 3420px;
+    left: 20px;
+    width: 95%;
+    height: 190px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+    background-color: lightgrey;
+}
+
+#girl img {
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 200px;
+    height: 180px;
+}
+
+#girlContent {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#girlContent ul {
+    font-size: 10px;
+}
+#search{
+    display: none;
+}
+#customer{
+    position: absolute;
+    top: 3690px;
+    left: 200px;
+    width: 50%;
+    height: 190px;
+}
+#customer h5{
+    text-align: center;
+    color:green;
+}
+#Review{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  gap:50px;
+}
+.feed{
+    display:flex;
+    flex-direction:column;
+    width:120px;
+    height: 80px;
+    border:0.2px solid whitesmoke;
+}
+.feed p{
+    font-size:10px;
+    display: flex;
+    flex-direction: column;
+}
+.feed h6{
+    font-size:10px;
+    font-weight: bold;
+}
+#refer{
+    position: absolute;
+    top: 3940px;
+    left: 20px;
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    background-color: whitesmoke;
+    display:flex;
+    flex-direction: row;
+    gap:100px;
+}
+#num{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:100px;
+}
+#num h5{
+    color:green;
+}
+#num h6{
+    color:green;
+    font-size:5px;
+}
+#phone{
+    border:0.1px solid whitesmoke;
+    border-radius:60px;
+    
+}
+#android img{
+    height: 150px;
+}
+#stamp{
+    position: absolute;
+    top: 4140px;
+    left: 20px;
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    
+}
+#stamp img{
+    padding-left: 150px;
+}
+#stamp h3{
+    padding-top:80px;
+}
+
+/*@media (max-width:412px){
+
+    #main{
+        display: none;
+    }
+    #contPart{
+        display:none;
+    }
+    #search{
+        display: block;
+        width:100%;
+    }
+    #contPartSec h1{
+        display: none;
+    }
+    #contPartSec {
+        position:relative;
+        left:-155px;
+    }
+    #moreSer{
+        order:-1;
+    }
+    .part1{
+        padding:5px;
+    }
+    .part1 img{
+        width:10px;
+        height: 10px;
+    }
+    #items{
+        display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+    }
+    
+}*/
+
